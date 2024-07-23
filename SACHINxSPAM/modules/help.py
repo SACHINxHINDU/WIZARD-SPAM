@@ -19,8 +19,8 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+Ckzm2ypQyIIzZTll")
+      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/we_nxt"),
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/nxt_chat")
     ]
   ]
 
@@ -39,7 +39,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph//file/78a297d2757b1f1c81473.mp4",
+              "https://telegra.ph/file/8eedb1420db1d3ec762c0.mp4",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -100,7 +100,7 @@ extra_msg = f"""
   ⦁ {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
   ⦁ {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @was_karma ~ @was_karma**
 """
 
 
@@ -112,7 +112,7 @@ owner_msg = f"""
  ❖ ᴜꜱᴀɢᴇ :
   ⦁{hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @SACHIN_OWNER ~ @V_VIP_OWNER**
+**© @was_karma ~ @was_karma**
 """      
           
 raid_msg = f"""
@@ -136,7 +136,7 @@ raid_msg = f"""
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @was_karma ~ @was_karma**
 """
 
 spam_msg = f"""
@@ -179,7 +179,7 @@ spam_msg = f"""
   ⦁ {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @SACHIN_OWMER ~ @V_VIP_OWMER**
+** © @was_karma ~ @was_karma**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -206,8 +206,8 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+Ckzm2ypQyIIzZTll")
+                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/we_nxt"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/nxt_chat")
               ]
             ]
           )
