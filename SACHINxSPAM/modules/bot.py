@@ -13,11 +13,11 @@ from telethon.tl.custom import button
 from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
-pongg = "s ᴀ ɴ ᴀ ᴛ ᴀ ɴ ɪ"
-PIC = "https://telegra.ph/file/57d2b8165f3640f5a3a55.mp4"
-Alivemsg = "sᴀɴᴀᴛᴀɴɪ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
+pongg = "ɴxᴛ sᴘᴀᴍ ʙᴏᴛ"
+PIC = "https://telegra.ph/file/8eedb1420db1d3ec762c0.mp4"
+Alivemsg = "ɴxᴛ sᴘᴀᴍ ʙᴏᴛ"
 
-TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ](https://t.me/ALL_SANATANI_BOT)\n❖ ᴄʜᴀɴɴᴇʟ : [4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ](https://t.me/+cW07X2RM_IBmYTI1)\n❖ ᴏᴡɴᴇʀ : [sᴀᴄʜɪɴ sᴀɴᴀᴛᴀɴɪ](https://t.me/SACHIN_OWNER)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
+TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𝗡𝗫𝗧 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 🔥 | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ](Https://t.me/we_nxt)\n❖ ᴄʜᴀɴɴᴇʟ : [4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ](Https://t.me/nxt_chat)\n❖ ᴏᴡɴᴇʀ : [sᴀᴄʜɪɴ sᴀɴᴀᴛᴀɴɪ](https://t.me/was_karma)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -36,8 +36,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ALL_SANATANI_BOT"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cW07X2RM_IBmYTI1")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "Https://t.me/we_nxt"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "Https://t.me/nxt_chat")
         ],
         ]
         )
@@ -164,7 +164,7 @@ async def ping(e):
         KEX = await e.reply(f"❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖\n❖ ᴛʜᴇ ᴍᴜsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
+        await KEX.edit(f"❖ | ɴxᴛ sᴘᴀᴍ ʙᴏᴛ | ❖\n❖ ᴛʜᴇ ᴍᴜsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
