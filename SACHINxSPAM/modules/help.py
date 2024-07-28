@@ -5,7 +5,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-★ 𝗡𝗫𝗧 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★
+★ 𝗪𝗜𝗭𝗔𝗥𝗗 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★
 
 » ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ
 """
@@ -19,8 +19,8 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/we_nxt"),
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/nxt_chat")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+4RrKR7dlOwxjNWJl"),
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/Wizard_ki_Public")
     ]
   ]
 
@@ -39,7 +39,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/8eedb1420db1d3ec762c0.mp4",
+              "https://telegra.ph/file/c764a5a1a2605c9f6afb8.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -111,7 +111,7 @@ owner_msg = f"""
 
  ❖ ᴜꜱᴀɢᴇ :
   ⦁{hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
-
+ 
 **© @was_karma ~ @was_karma**
 """      
           
@@ -206,13 +206,13 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/we_nxt"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/nxt_chat")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+4RrKR7dlOwxjNWJl"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/Wizard_ki_Public")
               ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ɴxᴛ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @WAS_KARMA", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴢᴀʀᴅ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HADES_WIZARD", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -231,7 +231,7 @@ async def help_spam(event):
               buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ɴxᴛ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @WAS_KARMA", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴢᴀʀᴅ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HADES_WIZARD", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -250,7 +250,7 @@ async def help_raid(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ɴxᴛ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @WAS_KARMA", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴢᴀʀᴅ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HADES_WIZARD", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -269,4 +269,23 @@ async def help_extra(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ɴxᴛ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @WAS_KARMA", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴢᴀʀᴅ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HADES_WIZARD", cache_time=0, alert=True)
+        
+        
+@X1.on(events.CallbackQuery(pattern=r"owner"))
+@X2.on(events.CallbackQuery(pattern=r"owner"))
+@X3.on(events.CallbackQuery(pattern=r"owner"))
+@X4.on(events.CallbackQuery(pattern=r"owner"))
+@X5.on(events.CallbackQuery(pattern=r"owner"))
+@X6.on(events.CallbackQuery(pattern=r"owner"))
+@X7.on(events.CallbackQuery(pattern=r"owner"))
+@X8.on(events.CallbackQuery(pattern=r"owner"))
+@X9.on(events.CallbackQuery(pattern=r"owner"))
+@X10.on(events.CallbackQuery(pattern=r"owner"))
+async def help_extra(event):
+    if event.query.user_id in SUDO_USERS:
+        await event.edit(extra_msg,
+            buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
+            )
+    else:
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴢᴀʀᴅ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HADES_WIZARD", cache_time=0, alert=True)
