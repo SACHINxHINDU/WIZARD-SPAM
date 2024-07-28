@@ -4,8 +4,8 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("🦋⃟‌‌‌🇼 ‌ɪᷟᴢᷣᴀʀᴅ 🌸", "https://t.me/WAS_KARMA"),
-        Button.url("ᴊᴇᴇᴠᴀɴ 🕸️", "https://t.me/NXT_SPAMMER")
+        Button.url("🦋⃟‌‌‌🇼 ‌ɪᷟᴢᷣᴀʀᴅ 🌸", "https://t.me/hades_wizard"),
+        Button.url("ᴜsᴇʀʙᴏᴛ 🕸️", "https://t.me/WIZARD_X_USERBOT")
     ],
     [
         Button.inline("🥀 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs 🥀", data="help_back")
