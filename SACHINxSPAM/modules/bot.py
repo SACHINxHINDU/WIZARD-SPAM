@@ -14,10 +14,10 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "ɴxᴛ sᴘᴀᴍ ʙᴏᴛ"
-PIC = "https://telegra.ph/file/8eedb1420db1d3ec762c0.mp4"
-Alivemsg = "ɴxᴛ sᴘᴀᴍ ʙᴏᴛ"
+PIC = "https://telegra.ph/file/c764a5a1a2605c9f6afb8.jpg"
+Alivemsg = "𝙒𝙄𝙕𝘼𝙍𝘿 𝙓 𝙎𝙋𝘼𝙈"
 
-TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𝗡𝗫𝗧 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 🔥 | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ](Https://t.me/we_nxt)\n❖ ᴄʜᴀɴɴᴇʟ : [4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ](Https://t.me/nxt_chat)\n❖ ᴏᴡɴᴇʀ : [sᴀᴄʜɪɴ sᴀɴᴀᴛᴀɴɪ](https://t.me/was_karma)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
+TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𝙒𝙄𝙕𝘼𝙍𝘿 𝙓 𝙎𝙋𝘼𝙈 | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ](https://t.me/+4RrKR7dlOwxjNWJl)\n❖ ᴄʜᴀɴɴᴇʟ : [4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ](https://t.me/Wizard_ki_Public)\n❖ ᴏᴡɴᴇʀ : [sᴀᴄʜɪɴ sᴀɴᴀᴛᴀɴɪ](https://t.me/V_VIP_OWNER)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -36,8 +36,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "Https://t.me/we_nxt"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "Https://t.me/nxt_chat")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+4RrKR7dlOwxjNWJl"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/Wizard_ki_Public")
         ],
         ]
         )
